@@ -374,6 +374,10 @@ a.active {
     outline: 0;
 }
 
+.navbar .container {
+    width: 100vw;
+}
+
 
 /*Navbar Logo Image*/
 
@@ -546,6 +550,12 @@ a.active {
     #intro .overlay {
         min-height: 100vw;
     }
+    #intro h1 {
+        font-size: 45px;
+    }
+    #intro .nickname {
+        font-size: 22px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -561,6 +571,12 @@ a.active {
     #intro .overlay {
         min-height: 110vw;
     }
+    #intro h1 {
+        font-size: 35px;
+    }
+    #intro .nickname {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -575,6 +591,12 @@ a.active {
     }
     #intro .overlay {
         min-height: 129vw;
+    }
+    #intro h1 {
+        font-size: 22px;
+    }
+    #intro .nickname {
+        font-size: 11px;
     }
 }
 
