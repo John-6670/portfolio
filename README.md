@@ -1,4 +1,4 @@
-# johnhazrati.github.io
+# John portfolio | Software Developer
 This is my first-ever portfolio, showcasing my journey and what I'm passionate about. 
 ### What's inside:
 - **About Me:** Get to know my interests, and what university am I currently studying at.
