@@ -250,84 +250,6 @@ a.active {
 }
 
 
-/* ======= Waypoints ======= */
-
-.wp1,
-.wp2,
-.wp3,
-.wp3-1,
-.wp3-2,
-.wp3-3,
-.wp3-4,
-.wp3-5,
-.wp4,
-.wp5,
-.wp6 {
-    visibility: hidden;
-}
-
-.bounceIn,
-.bounceInLeft,
-.bounceInRight,
-.bounceInDown,
-.fadeIn,
-.fadeInUp,
-.fadeInUpDelay,
-.fadeInDown,
-.fadeInLeft,
-.fadeInRight,
-.slideInUp,
-.slideInDown,
-.slideInLeft,
-.slideInRight,
-.zoomIn,
-.swing,
-.pulse,
-.bounce,
-.progress1-delay,
-.progress2-delay,
-.progress3-delay,
-.progress4-delay,
-.progress5-delay {
-    visibility: visible;
-}
-
-.delay-01s {
-    animation-delay: 0.1s;
-    -webkit-animation-delay: 0.1s;
-}
-
-.delay-02s {
-    animation-delay: 0.2s;
-    -webkit-animation-delay: 0.2s;
-}
-
-.delay-025s {
-    animation-delay: 0.25s;
-    -webkit-animation-delay: 0.25s;
-}
-
-.delay-05s {
-    animation-delay: 0.5s;
-    -webkit-animation-delay: 0.5s;
-}
-
-.delay-1s {
-    animation-delay: 1s;
-    -webkit-animation-delay: 1s;
-}
-
-.delay-4s {
-    animation-delay: 4s;
-    -webkit-animation-delay: 4s;
-}
-
-.delay-4-5s {
-    animation-delay: 4.5s;
-    -webkit-animation-delay: 4.5s;
-}
-
-
 /* ======= NAV BAR ======= */
 
 .light {
@@ -430,13 +352,13 @@ a.active {
     color: #fff;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .container {
         width: 95%;
     }
 }
 
-@media only screen and (max-width: 818px) {
+@media (max-width: 818px) {
     .nav > li > a {
         padding: 15px 10px;
     }
@@ -495,7 +417,7 @@ a.active {
     background-repeat: no-repeat;
     background-color: #000;
     color: #000;
-    min-height: 55vw;
+    min-height: 100vh;
 }
 
 #intro .overlay {
@@ -513,7 +435,7 @@ a.active {
     /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
     /* IE6-9 */
-    height: 55vw;
+    height: 100vh;
     background-attachment: fixed;
 }
 
@@ -544,18 +466,6 @@ a.active {
     .intro-content {
         padding: 25% 0 5% 0;
     }
-    #intro {
-        min-height: 100vw;
-    }
-    #intro .overlay {
-        min-height: 100vw;
-    }
-    #intro h1 {
-        font-size: 45px;
-    }
-    #intro .nickname {
-        font-size: 22px;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -565,38 +475,23 @@ a.active {
     .navbar-toggle {
         padding: 0px 10px;
     }
-    #intro {
-        min-height: 110vw;
-    }
-    #intro .overlay {
-        min-height: 110vw;
-    }
-    #intro h1 {
-        font-size: 35px;
-    }
-    #intro .nickname {
-        font-size: 12px;
-    }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
     .intro-content {
         padding: 45% 0 5% 0;
     }
     a.fa.fa-angle-down {
         margin-top: 80px !important;
     }
-    #intro {
-        min-height: 129vw;
-    }
-    #intro .overlay {
-        min-height: 129vw;
-    }
     #intro h1 {
-        font-size: 22px;
+        font-size: 35px;
     }
     #intro .nickname {
-        font-size: 11px;
+        font-size: 17px;
+    }
+    #intro p.subtitle {
+        font-size: 12px;
     }
 }
 
@@ -630,7 +525,7 @@ a.fa.fa-angle-down:focus {
 #about {
     padding-top: 90px;
     padding-bottom: 100px;
-    min-height: 55vw;
+    min-height: 100vh;
 }
 
 #about img#prof-pic {
@@ -788,7 +683,7 @@ a.fa.fa-angle-down:focus {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #F0F0F0;
-    min-height: 55vw;
+    min-height: 100vh;
 }
 
 #focus h3 {
