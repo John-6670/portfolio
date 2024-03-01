@@ -753,6 +753,7 @@ a.fa.fa-angle-down:focus {
     padding-top: 100px;
     padding-bottom: 100px;
     background: #fff;
+    min-height: 85vh;
 }
 
 #experience p {
@@ -764,6 +765,7 @@ a.fa.fa-angle-down:focus {
 
 .skills {
     margin-top: 50px;
+
 }
 
 
