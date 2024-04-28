@@ -44,10 +44,8 @@ $(function() {
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
             $(".navbar-fixed-top").addClass("top-nav-collapse");
-            // $(".navbar").addClass("navbar-shadow");
         } else {
             $(".navbar-fixed-top").removeClass("top-nav-collapse");
-            // $(".navbar").removeClass("navbar-shadow");
         }
     });
 
@@ -71,5 +69,4 @@ $(function() {
     $("#to-top").mouseout(function() {
         $("#to-top-copy").animate({opacity: "0"}, "slow");
     });
-
 });

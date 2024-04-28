@@ -3514,11 +3514,11 @@ tbody.collapse.in {
   margin-bottom: 2px;
 }
 @media (min-width: 768px) {
-  .navbar-right .dropdown-menu {
+  .navbar-center .dropdown-menu {
     right: 0;
     left: auto;
   }
-  .navbar-right .dropdown-menu-left {
+  .navbar-center .dropdown-menu-left {
     right: auto;
     left: 0;
   }
@@ -4362,11 +4362,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-left {
     float: left !important;
   }
-  .navbar-right {
+  .navbar-center {
     float: right !important;
     margin-right: -15px;
   }
-  .navbar-right ~ .navbar-right {
+  .navbar-center ~ .navbar-center {
     margin-right: 0;
   }
 }
